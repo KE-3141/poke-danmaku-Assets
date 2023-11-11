@@ -1,0 +1,7 @@
+{
+  "nuxt.isNuxtApp": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "editor.rulers": [80],
+}

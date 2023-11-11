@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="DescriptionComponent" src="project://database/Assets/UI%20Toolkit/UnityThemes/DescriptionComponent.uxml?fileID=9197481963319205126&amp;guid=89457c5b6dcf0451c9e6fd18fb1ac2c3&amp;type=3#DescriptionComponent" />
+    <ui:Label tabindex="-1" text="Choose Your Pokemon" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="-unity-font: url(&apos;project://database/Assets/Fonts/SAM_5C_27TRG_.TTF?fileID=12800000&amp;guid=5cf0eb48b4e374640bcc157a5f4a7284&amp;type=3#SAM_5C_27TRG_&apos;); font-size: 48px;" />
+    <ui:VisualElement name="CharacterDescription" style="flex-grow: initial; background-color: rgba(0, 0, 0, 0.59); height: auto; width: 40%; margin-top: 24px; margin-left: 24px; padding-top: 12px; padding-left: 12px; flex-wrap: wrap;">
+        <ui:Instance template="DescriptionComponent" name="StandardShot" style="margin-bottom: 16px;" />
+        <ui:Instance template="DescriptionComponent" name="OptionShot" style="margin-bottom: 16px;" />
+        <ui:Instance template="DescriptionComponent" name="SpecialShot" style="margin-bottom: 16px;" />
+        <ui:Instance template="DescriptionComponent" name="Ability" style="margin-bottom: 16px;" />
+    </ui:VisualElement>
+</ui:UXML>
